@@ -134,7 +134,7 @@ h2 em { font-weight: 500; }
   min-height: 600px;
   background:
     linear-gradient(rgba(0,0,0,.12), rgba(0,0,0,.18)),
-    url("https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=1200&q=85") center/cover;
+    url("images/image8.png") center/cover;
 }
 .about-copy p:not(.eyebrow) { color: #5d5d5d; max-width: 510px; margin-top: 25px; font-size: 15px; }
 .text-link { display: inline-block; margin-top: 35px; padding-bottom: 7px; border-bottom: 1px solid #222; text-transform: uppercase; font-size: 11px; letter-spacing: .14em; font-weight: 700; }
