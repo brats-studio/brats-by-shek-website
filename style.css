@@ -168,11 +168,12 @@ h2 em { font-weight: 500; }
   grid-column: auto;
 }
 
-.img-1 { background-image: url("images/image3.jpeg"); }
-.img-2 { background-image: url("images/image2.jpeg"); }
-.img-3 { background-image: url("images/image5.png"); }
-.img-4 { background-image: url("images/image8.png"); }
-.img-5 { background-image: url("images/image7.png"); }
+.img-1 { background-image: url("images/gallery1.png"); }
+.img-2 { background-image: url("images/gallery2.png"); }
+.img-3 { background-image: url("images/gallery3.png"); }
+.img-4 { background-image: url("images/gallery4.png"); }
+.img-5 { background-image: url("images/gallery5.png"); }
+.img-6 { background-image: url("images/gallery6.png"); }
 
 
 .booking { background: #ebe7df; }
