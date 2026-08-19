@@ -140,17 +140,40 @@ h2 em { font-weight: 500; }
 .text-link { display: inline-block; margin-top: 35px; padding-bottom: 7px; border-bottom: 1px solid #222; text-transform: uppercase; font-size: 11px; letter-spacing: .14em; font-weight: 700; }
 
 .gallery { background: #111; color: white; }
+
 .gallery .section-heading > p { color: #aaa; }
+
 .gallery .eyebrow { color: #aaa; }
-.gallery-grid { display: grid; grid-template-columns: 1.2fr .8fr .8fr; grid-auto-rows: 300px; gap: 10px; }
-.gallery-item { background-position: center; background-size: cover; min-height: 250px; }
-.gallery-large { grid-row: span 2; }
-.gallery-wide { grid-column: span 2; }
+
+/* Square gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+/* All images same square size */
+.gallery-item {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Remove previous large/wide behavior */
+.gallery-large,
+.gallery-wide {
+  grid-row: auto;
+  grid-column: auto;
+}
+
 .img-1 { background-image: url("images/image3.jpeg"); }
 .img-2 { background-image: url("images/image2.jpeg"); }
 .img-3 { background-image: url("images/image5.png"); }
 .img-4 { background-image: url("images/image8.png"); }
 .img-5 { background-image: url("images/image7.png"); }
+
 
 .booking { background: #ebe7df; }
 .booking-card { background: #101010; color: white; display: grid; grid-template-columns: 1.5fr .75fr; min-height: 500px; }
@@ -223,7 +246,7 @@ footer { background: #080808; color: white; padding: 55px 7vw 35px; display: gri
   .service-card { min-height: 280px; }
   .statement { min-height: 420px; }
   .statement-logo { width: 150px; }
-  .gallery-grid { grid-template-columns: 1fr 1fr; grid-auto-rows: 220px; }
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .gallery-large { grid-row: span 2; }
   .gallery-wide { grid-column: 1 / -1; }
   .booking-card { grid-template-columns: 1fr; }
