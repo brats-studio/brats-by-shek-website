@@ -7,7 +7,8 @@
 // 3. Paste it between the quotes below.
 // Example:
 // const BOOKING_URL = "https://calendar.app.google/npcGB5fqBVnkVE4F7";
-const BOOKING_URL = "https://calendar.app.google/WFztri8oYQvnySvD8";
+// const BOOKING_URL = "https://calendar.app.google/WFztri8oYQvnySvD8";
+const BOOKING_URL = "https://app.squareup.com/appointments/book/pehsaoqhifjm4i/LYK34JCNQ821A/start";
 
 const bookingLink = document.getElementById("bookingLink");
 
